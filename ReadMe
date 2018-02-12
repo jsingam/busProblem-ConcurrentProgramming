@@ -1,0 +1,15 @@
+This Application is developed for the Lab3 of Concurrent Programming Module.
+As per the requirement the code is built with the mean of 30 secs and 20 mins which is time consuming.
+So two seperate jar files are provided.
+
+To run the proper application run the command
+java -jar BusProblem.jar
+
+TO run a quick version of the applicaiton run the command. THis is the same code with small means.
+java -jar BusProblemQuick.jar
+
+Further to ensure the code open a terminal in src folder and run the following command
+java Application.
+
+To alter the code for fast execution change the getRandom() method in both generators.
+instead of the multiplying by 1000, a multiplication of 10 in that line will do the needful.
